@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F019D1B15C5D789003D4907 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F019D1A15C5D789003D4907 /* UIKit.framework */; };
+		7F019D1D15C5D789003D4907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F019D1C15C5D789003D4907 /* Foundation.framework */; };
+		7F019D1F15C5D789003D4907 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F019D1E15C5D789003D4907 /* CoreGraphics.framework */; };
+		7F019D2115C5D789003D4907 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F019D2015C5D789003D4907 /* CoreData.framework */; };
+		7F019D2715C5D789003D4907 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F019D2515C5D789003D4907 /* InfoPlist.strings */; };
+		7F019D2915C5D789003D4907 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F019D2815C5D789003D4907 /* main.m */; };
+		7F019D2D15C5D789003D4907 /* PRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F019D2C15C5D789003D4907 /* PRAppDelegate.m */; };
+		7F019D3015C5D789003D4907 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F019D2E15C5D789003D4907 /* MainStoryboard.storyboard */; };
+		7F019D3315C5D789003D4907 /* Passer_Rating.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F019D3115C5D789003D4907 /* Passer_Rating.xcdatamodeld */; };
+		7F019D3615C5D789003D4907 /* PRMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F019D3515C5D789003D4907 /* PRMasterViewController.m */; };
+		7F019D3915C5D789003D4907 /* PRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F019D3815C5D789003D4907 /* PRDetailViewController.m */; };
+		7F019D4115C5D789003D4907 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F019D4015C5D789003D4907 /* SenTestingKit.framework */; };
+		7F019D4215C5D789003D4907 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F019D1A15C5D789003D4907 /* UIKit.framework */; };
+		7F019D4315C5D789003D4907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F019D1C15C5D789003D4907 /* Foundation.framework */; };
+		7F019D4415C5D789003D4907 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F019D2015C5D789003D4907 /* CoreData.framework */; };
+		7F019D4C15C5D789003D4907 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F019D4A15C5D789003D4907 /* InfoPlist.strings */; };
+		7F019D4F15C5D789003D4907 /* Passer_RatingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F019D4E15C5D789003D4907 /* Passer_RatingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F019D4515C5D789003D4907 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F019D0D15C5D788003D4907 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F019D1515C5D789003D4907;
+			remoteInfo = "Passer-Rating";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F019D1615C5D789003D4907 /* Passer-Rating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Passer-Rating.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F019D1A15C5D789003D4907 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7F019D1C15C5D789003D4907 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F019D1E15C5D789003D4907 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F019D2015C5D789003D4907 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7F019D2415C5D789003D4907 /* Passer-Rating-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passer-Rating-Info.plist"; sourceTree = "<group>"; };
+		7F019D2615C5D789003D4907 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F019D2815C5D789003D4907 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F019D2A15C5D789003D4907 /* Passer-Rating-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Passer-Rating-Prefix.pch"; sourceTree = "<group>"; };
+		7F019D2B15C5D789003D4907 /* PRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRAppDelegate.h; sourceTree = "<group>"; };
+		7F019D2C15C5D789003D4907 /* PRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRAppDelegate.m; sourceTree = "<group>"; };
+		7F019D2F15C5D789003D4907 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7F019D3215C5D789003D4907 /* Passer_Rating.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Passer_Rating.xcdatamodel; sourceTree = "<group>"; };
+		7F019D3415C5D789003D4907 /* PRMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRMasterViewController.h; sourceTree = "<group>"; };
+		7F019D3515C5D789003D4907 /* PRMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRMasterViewController.m; sourceTree = "<group>"; };
+		7F019D3715C5D789003D4907 /* PRDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRDetailViewController.h; sourceTree = "<group>"; };
+		7F019D3815C5D789003D4907 /* PRDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRDetailViewController.m; sourceTree = "<group>"; };
+		7F019D3F15C5D789003D4907 /* Passer-RatingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Passer-RatingTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F019D4015C5D789003D4907 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7F019D4915C5D789003D4907 /* Passer-RatingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passer-RatingTests-Info.plist"; sourceTree = "<group>"; };
+		7F019D4B15C5D789003D4907 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F019D4D15C5D789003D4907 /* Passer_RatingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Passer_RatingTests.h; sourceTree = "<group>"; };
+		7F019D4E15C5D789003D4907 /* Passer_RatingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passer_RatingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F019D1315C5D789003D4907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F019D1B15C5D789003D4907 /* UIKit.framework in Frameworks */,
+				7F019D1D15C5D789003D4907 /* Foundation.framework in Frameworks */,
+				7F019D1F15C5D789003D4907 /* CoreGraphics.framework in Frameworks */,
+				7F019D2115C5D789003D4907 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F019D3B15C5D789003D4907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F019D4115C5D789003D4907 /* SenTestingKit.framework in Frameworks */,
+				7F019D4215C5D789003D4907 /* UIKit.framework in Frameworks */,
+				7F019D4315C5D789003D4907 /* Foundation.framework in Frameworks */,
+				7F019D4415C5D789003D4907 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F019D0B15C5D788003D4907 = {
+			isa = PBXGroup;
+			children = (
+				7F019D2215C5D789003D4907 /* Passer-Rating */,
+				7F019D4715C5D789003D4907 /* Passer-RatingTests */,
+				7F019D1915C5D789003D4907 /* Frameworks */,
+				7F019D1715C5D789003D4907 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F019D1715C5D789003D4907 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F019D1615C5D789003D4907 /* Passer-Rating.app */,
+				7F019D3F15C5D789003D4907 /* Passer-RatingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F019D1915C5D789003D4907 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F019D1A15C5D789003D4907 /* UIKit.framework */,
+				7F019D1C15C5D789003D4907 /* Foundation.framework */,
+				7F019D1E15C5D789003D4907 /* CoreGraphics.framework */,
+				7F019D2015C5D789003D4907 /* CoreData.framework */,
+				7F019D4015C5D789003D4907 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F019D2215C5D789003D4907 /* Passer-Rating */ = {
+			isa = PBXGroup;
+			children = (
+				7F019D2B15C5D789003D4907 /* PRAppDelegate.h */,
+				7F019D2C15C5D789003D4907 /* PRAppDelegate.m */,
+				7F019D2E15C5D789003D4907 /* MainStoryboard.storyboard */,
+				7F019D3415C5D789003D4907 /* PRMasterViewController.h */,
+				7F019D3515C5D789003D4907 /* PRMasterViewController.m */,
+				7F019D3715C5D789003D4907 /* PRDetailViewController.h */,
+				7F019D3815C5D789003D4907 /* PRDetailViewController.m */,
+				7F019D3115C5D789003D4907 /* Passer_Rating.xcdatamodeld */,
+				7F019D2315C5D789003D4907 /* Supporting Files */,
+			);
+			path = "Passer-Rating";
+			sourceTree = "<group>";
+		};
+		7F019D2315C5D789003D4907 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F019D2415C5D789003D4907 /* Passer-Rating-Info.plist */,
+				7F019D2515C5D789003D4907 /* InfoPlist.strings */,
+				7F019D2815C5D789003D4907 /* main.m */,
+				7F019D2A15C5D789003D4907 /* Passer-Rating-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F019D4715C5D789003D4907 /* Passer-RatingTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F019D4D15C5D789003D4907 /* Passer_RatingTests.h */,
+				7F019D4E15C5D789003D4907 /* Passer_RatingTests.m */,
+				7F019D4815C5D789003D4907 /* Supporting Files */,
+			);
+			path = "Passer-RatingTests";
+			sourceTree = "<group>";
+		};
+		7F019D4815C5D789003D4907 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F019D4915C5D789003D4907 /* Passer-RatingTests-Info.plist */,
+				7F019D4A15C5D789003D4907 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F019D1515C5D789003D4907 /* Passer-Rating */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F019D5215C5D789003D4907 /* Build configuration list for PBXNativeTarget "Passer-Rating" */;
+			buildPhases = (
+				7F019D1215C5D789003D4907 /* Sources */,
+				7F019D1315C5D789003D4907 /* Frameworks */,
+				7F019D1415C5D789003D4907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Passer-Rating";
+			productName = "Passer-Rating";
+			productReference = 7F019D1615C5D789003D4907 /* Passer-Rating.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F019D3E15C5D789003D4907 /* Passer-RatingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F019D5515C5D789003D4907 /* Build configuration list for PBXNativeTarget "Passer-RatingTests" */;
+			buildPhases = (
+				7F019D3A15C5D789003D4907 /* Sources */,
+				7F019D3B15C5D789003D4907 /* Frameworks */,
+				7F019D3C15C5D789003D4907 /* Resources */,
+				7F019D3D15C5D789003D4907 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F019D4615C5D789003D4907 /* PBXTargetDependency */,
+			);
+			name = "Passer-RatingTests";
+			productName = "Passer-RatingTests";
+			productReference = 7F019D3F15C5D789003D4907 /* Passer-RatingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F019D0D15C5D788003D4907 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PR;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Miene Lee";
+			};
+			buildConfigurationList = 7F019D1015C5D788003D4907 /* Build configuration list for PBXProject "Passer-Rating" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F019D0B15C5D788003D4907;
+			productRefGroup = 7F019D1715C5D789003D4907 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F019D1515C5D789003D4907 /* Passer-Rating */,
+				7F019D3E15C5D789003D4907 /* Passer-RatingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F019D1415C5D789003D4907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F019D2715C5D789003D4907 /* InfoPlist.strings in Resources */,
+				7F019D3015C5D789003D4907 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F019D3C15C5D789003D4907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F019D4C15C5D789003D4907 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F019D3D15C5D789003D4907 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F019D1215C5D789003D4907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F019D2915C5D789003D4907 /* main.m in Sources */,
+				7F019D2D15C5D789003D4907 /* PRAppDelegate.m in Sources */,
+				7F019D3315C5D789003D4907 /* Passer_Rating.xcdatamodeld in Sources */,
+				7F019D3615C5D789003D4907 /* PRMasterViewController.m in Sources */,
+				7F019D3915C5D789003D4907 /* PRDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F019D3A15C5D789003D4907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F019D4F15C5D789003D4907 /* Passer_RatingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F019D4615C5D789003D4907 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F019D1515C5D789003D4907 /* Passer-Rating */;
+			targetProxy = 7F019D4515C5D789003D4907 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F019D2515C5D789003D4907 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F019D2615C5D789003D4907 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F019D2E15C5D789003D4907 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F019D2F15C5D789003D4907 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		7F019D4A15C5D789003D4907 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F019D4B15C5D789003D4907 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F019D5015C5D789003D4907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F019D5115C5D789003D4907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F019D5315C5D789003D4907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passer-Rating/Passer-Rating-Prefix.pch";
+				INFOPLIST_FILE = "Passer-Rating/Passer-Rating-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F019D5415C5D789003D4907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passer-Rating/Passer-Rating-Prefix.pch";
+				INFOPLIST_FILE = "Passer-Rating/Passer-Rating-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7F019D5615C5D789003D4907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Passer-Rating.app/Passer-Rating";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passer-Rating/Passer-Rating-Prefix.pch";
+				INFOPLIST_FILE = "Passer-RatingTests/Passer-RatingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7F019D5715C5D789003D4907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Passer-Rating.app/Passer-Rating";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passer-Rating/Passer-Rating-Prefix.pch";
+				INFOPLIST_FILE = "Passer-RatingTests/Passer-RatingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F019D1015C5D788003D4907 /* Build configuration list for PBXProject "Passer-Rating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F019D5015C5D789003D4907 /* Debug */,
+				7F019D5115C5D789003D4907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F019D5215C5D789003D4907 /* Build configuration list for PBXNativeTarget "Passer-Rating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F019D5315C5D789003D4907 /* Debug */,
+				7F019D5415C5D789003D4907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F019D5515C5D789003D4907 /* Build configuration list for PBXNativeTarget "Passer-RatingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F019D5615C5D789003D4907 /* Debug */,
+				7F019D5715C5D789003D4907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7F019D3115C5D789003D4907 /* Passer_Rating.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7F019D3215C5D789003D4907 /* Passer_Rating.xcdatamodel */,
+			);
+			currentVersion = 7F019D3215C5D789003D4907 /* Passer_Rating.xcdatamodel */;
+			path = Passer_Rating.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7F019D0D15C5D788003D4907 /* Project object */;
+}
